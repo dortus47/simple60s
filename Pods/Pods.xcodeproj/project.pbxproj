@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A417885C6B3C346B31927E23B0720 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0808F962A6F026B63C8BF4D76B448703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 019C59307A20365645D51480EF4F90BE /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7CCDA3B08218BA752F9FA1F2B057AD /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 100F92D9AD485242C5D60CEF805C5DCF /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13F54ADF7361C56EAFA3F6301AC103BD /* Pods-sipleTimer60-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898CBD3BB9652AAD9D10895A6E540FF8 /* Pods-sipleTimer60-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9B8AAC2C78173883F8139F425F4EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1102E2FC624F0718455F636395E24319 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33256462A3D489D73B8F002C87C47D81 /* SwiftProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 646E682AC88C213481C93090E6E90D95 /* SwiftProgressView-dummy.m */; };
+		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4347CCEFBF877BCC2764250F6E990976 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F33272269FB4080277499D52FA7E9FC /* Pods-sipleTimer60-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD3EB215371FE5CA5F4C901B2054634 /* Pods-sipleTimer60-dummy.m */; };
+		538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C6919D94ABF86B3B8174FC4E439E96 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2B3A3E8F6C593D8B29F06BB99831A /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9DB8113932AC38693FF3AE7F065BEC /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35559BB5869DEF9BBD8E9845F892D2D1 /* FMDB-dummy.m */; };
+		8E8C55564E0EAE2CCA07E7F87A77F3C0 /* SwiftProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 139EAEF7E7B2CA7DF3FC04B80C3F4DB2 /* SwiftProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2817DB8A5898A4D825839CBB0BDB8191 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB24FD0482483622A230D5AF717C933A /* ProgressPieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AA88EFECAE02574DB1C2F21EAF642 /* ProgressPieView.swift */; };
+		BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7B131C29DDA87DD23F348BD28F4D58 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8942EAFFB4ED83B886B468F211B2A8F /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75D7F84DFFC96B9AAF4F90E41CD748 /* ProgressRingView.swift */; };
+		D76615FFD08132780A1199D4D0B4FFF0 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBD9458648C8C70C5DED38B5597CD3 /* ProgressView.swift */; };
+		D96BEB6712FBDFD466B288E50E41E0F7 /* SwiftProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7DB957C5EAD83D6E0F6377A14C54AF /* SwiftProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C6209869DBCD20A86875D4A6566DEE /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274AA351B2248718F9408495CE0D4540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38DC358AA1571645C6B63937370D243;
+			remoteInfo = SwiftProgressView;
+		};
+		67E258A59A2A1578AE5A7980C07894D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		BBE36F4FDAD9A3BEF7BE09168D3AA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019C59307A20365645D51480EF4F90BE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		072A9D8F3FDD887C95ECEB6379DD80CD /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		100F92D9AD485242C5D60CEF805C5DCF /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		1102E2FC624F0718455F636395E24319 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		139EAEF7E7B2CA7DF3FC04B80C3F4DB2 /* SwiftProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProgressView-umbrella.h"; sourceTree = "<group>"; };
+		1C3BE313E06B5B6020BA477BD1DA482B /* SwiftProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProgressView-prefix.pch"; sourceTree = "<group>"; };
+		2817DB8A5898A4D825839CBB0BDB8191 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		287A417885C6B3C346B31927E23B0720 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		35559BB5869DEF9BBD8E9845F892D2D1 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		3B9DB8113932AC38693FF3AE7F065BEC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3D9ED58170D85F4086087DE900A4DC87 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		4347CCEFBF877BCC2764250F6E990976 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		46535C1B7699B4738CD79942FFC50295 /* Pods-sipleTimer60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sipleTimer60.release.xcconfig"; sourceTree = "<group>"; };
+		4EBB29CD03DCA55895D7E56928AD469B /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
+		50C6919D94ABF86B3B8174FC4E439E96 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		59A2B3A3E8F6C593D8B29F06BB99831A /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		5ED3918E0FB2E8FBB4BCC934F9F198BB /* Pods-sipleTimer60-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sipleTimer60-Info.plist"; sourceTree = "<group>"; };
+		646E682AC88C213481C93090E6E90D95 /* SwiftProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftProgressView-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B7DB957C5EAD83D6E0F6377A14C54AF /* SwiftProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftProgressView.h; path = SwiftProgressView/SwiftProgressView.h; sourceTree = "<group>"; };
+		7D52D3B06A1E6F9B746D6EEC02507288 /* Pods-sipleTimer60.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sipleTimer60.debug.xcconfig"; sourceTree = "<group>"; };
+		7F073FC004A9C15370C5AA2A0E63EE80 /* SwiftProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftProgressView.modulemap; sourceTree = "<group>"; };
+		88BBD9458648C8C70C5DED38B5597CD3 /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = SwiftProgressView/Sources/ProgressView.swift; sourceTree = "<group>"; };
+		898CBD3BB9652AAD9D10895A6E540FF8 /* Pods-sipleTimer60-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sipleTimer60-umbrella.h"; sourceTree = "<group>"; };
+		8A27EBC2AE590C46E75BC15CAA0A22ED /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
+		8A7CCDA3B08218BA752F9FA1F2B057AD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		92C6209869DBCD20A86875D4A6566DEE /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		93BA2594B59F4EEF78CCC3E8B4B6F416 /* Pods-sipleTimer60-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sipleTimer60-acknowledgements.plist"; sourceTree = "<group>"; };
+		963B0E54E4E11C731C91A09E78568F00 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17D050163F973F55F4F5C2ABAE995EB /* Pods-sipleTimer60-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sipleTimer60-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B949EC50059351CAE0DF6739B6ECB21C /* Pods_sipleTimer60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sipleTimer60.framework; path = "Pods-sipleTimer60.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7B131C29DDA87DD23F348BD28F4D58 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		BD75D7F84DFFC96B9AAF4F90E41CD748 /* ProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressRingView.swift; path = SwiftProgressView/Sources/ProgressRingView.swift; sourceTree = "<group>"; };
+		C200E7D8098E26D78EC1365B5C8B473E /* SwiftProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProgressView.debug.xcconfig; sourceTree = "<group>"; };
+		CCB81E2D523A149A90A3B8DC5D41F086 /* Pods-sipleTimer60.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sipleTimer60.modulemap"; sourceTree = "<group>"; };
+		D39EA63D557A7BFCA46612437AE57F27 /* SwiftProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProgressView.release.xcconfig; sourceTree = "<group>"; };
+		DBB1A3DECFD6E1B5FF3F4F3ACFAE1823 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		DBD3EB215371FE5CA5F4C901B2054634 /* Pods-sipleTimer60-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sipleTimer60-dummy.m"; sourceTree = "<group>"; };
+		E06A8A30727FF20EF159329EFD2EF13B /* Pods-sipleTimer60-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sipleTimer60-frameworks.sh"; sourceTree = "<group>"; };
+		E6A7B6062887F910933E5B79D1B2D6A3 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftProgressView.framework; path = SwiftProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635EE13B57849AF9279AA72255FE934 /* SwiftProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftProgressView-Info.plist"; sourceTree = "<group>"; };
+		FF1AA88EFECAE02574DB1C2F21EAF642 /* ProgressPieView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressPieView.swift; path = SwiftProgressView/Sources/ProgressPieView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E857D338F96D89E73F6E28241F0A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C966150752AA58C3A5AFE04332993688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0808F962A6F026B63C8BF4D76B448703 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E2C523CE3D72686EB98E90B0B83456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9B8AAC2C78173883F8139F425F4EF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010D3BDDA4A5828003E2D228AB344E5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				072A9D8F3FDD887C95ECEB6379DD80CD /* SwiftLint.debug.xcconfig */,
+				E6A7B6062887F910933E5B79D1B2D6A3 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		0A9340FCF3BAD61F0BC61CAC17C14EDF /* SwiftProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				FF1AA88EFECAE02574DB1C2F21EAF642 /* ProgressPieView.swift */,
+				BD75D7F84DFFC96B9AAF4F90E41CD748 /* ProgressRingView.swift */,
+				88BBD9458648C8C70C5DED38B5597CD3 /* ProgressView.swift */,
+				7B7DB957C5EAD83D6E0F6377A14C54AF /* SwiftProgressView.h */,
+				B795CCD9B5216882347F100952C59401 /* Support Files */,
+			);
+			name = SwiftProgressView;
+			path = SwiftProgressView;
+			sourceTree = "<group>";
+		};
+		381B2C87A00E5D7B53E70BF5221E6C23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F14FE7CBEC6E5373038197957970D87 /* Pods-sipleTimer60 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F2A811A4DBF2AEBD16923CE1A16C508 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DEE351AC60153C3D144164E6A63FCFA9 /* standard */,
+				9A6673C335939EF7862A3E6D8A6B0486 /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		85109161856B88D18F209BCE9C693D76 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				010D3BDDA4A5828003E2D228AB344E5B /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		8F14FE7CBEC6E5373038197957970D87 /* Pods-sipleTimer60 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB81E2D523A149A90A3B8DC5D41F086 /* Pods-sipleTimer60.modulemap */,
+				B17D050163F973F55F4F5C2ABAE995EB /* Pods-sipleTimer60-acknowledgements.markdown */,
+				93BA2594B59F4EEF78CCC3E8B4B6F416 /* Pods-sipleTimer60-acknowledgements.plist */,
+				DBD3EB215371FE5CA5F4C901B2054634 /* Pods-sipleTimer60-dummy.m */,
+				E06A8A30727FF20EF159329EFD2EF13B /* Pods-sipleTimer60-frameworks.sh */,
+				5ED3918E0FB2E8FBB4BCC934F9F198BB /* Pods-sipleTimer60-Info.plist */,
+				898CBD3BB9652AAD9D10895A6E540FF8 /* Pods-sipleTimer60-umbrella.h */,
+				7D52D3B06A1E6F9B746D6EEC02507288 /* Pods-sipleTimer60.debug.xcconfig */,
+				46535C1B7699B4738CD79942FFC50295 /* Pods-sipleTimer60.release.xcconfig */,
+			);
+			name = "Pods-sipleTimer60";
+			path = "Target Support Files/Pods-sipleTimer60";
+			sourceTree = "<group>";
+		};
+		9A6673C335939EF7862A3E6D8A6B0486 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D9ED58170D85F4086087DE900A4DC87 /* FMDB.modulemap */,
+				35559BB5869DEF9BBD8E9845F892D2D1 /* FMDB-dummy.m */,
+				4EBB29CD03DCA55895D7E56928AD469B /* FMDB-Info.plist */,
+				DBB1A3DECFD6E1B5FF3F4F3ACFAE1823 /* FMDB-prefix.pch */,
+				1102E2FC624F0718455F636395E24319 /* FMDB-umbrella.h */,
+				963B0E54E4E11C731C91A09E78568F00 /* FMDB.debug.xcconfig */,
+				8A27EBC2AE590C46E75BC15CAA0A22ED /* FMDB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		B39D566B8A6569E665E19B465111C4D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				B949EC50059351CAE0DF6739B6ECB21C /* Pods_sipleTimer60.framework */,
+				F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B795CCD9B5216882347F100952C59401 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F073FC004A9C15370C5AA2A0E63EE80 /* SwiftProgressView.modulemap */,
+				646E682AC88C213481C93090E6E90D95 /* SwiftProgressView-dummy.m */,
+				F635EE13B57849AF9279AA72255FE934 /* SwiftProgressView-Info.plist */,
+				1C3BE313E06B5B6020BA477BD1DA482B /* SwiftProgressView-prefix.pch */,
+				139EAEF7E7B2CA7DF3FC04B80C3F4DB2 /* SwiftProgressView-umbrella.h */,
+				C200E7D8098E26D78EC1365B5C8B473E /* SwiftProgressView.debug.xcconfig */,
+				D39EA63D557A7BFCA46612437AE57F27 /* SwiftProgressView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftProgressView";
+			sourceTree = "<group>";
+		};
+		C24624A498979D4D4C9C4BF821070D1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F2A811A4DBF2AEBD16923CE1A16C508 /* FMDB */,
+				85109161856B88D18F209BCE9C693D76 /* SwiftLint */,
+				0A9340FCF3BAD61F0BC61CAC17C14EDF /* SwiftProgressView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C24624A498979D4D4C9C4BF821070D1C /* Pods */,
+				B39D566B8A6569E665E19B465111C4D8 /* Products */,
+				381B2C87A00E5D7B53E70BF5221E6C23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEE351AC60153C3D144164E6A63FCFA9 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				4347CCEFBF877BCC2764250F6E990976 /* FMDatabase.h */,
+				59A2B3A3E8F6C593D8B29F06BB99831A /* FMDatabase.m */,
+				50C6919D94ABF86B3B8174FC4E439E96 /* FMDatabaseAdditions.h */,
+				019C59307A20365645D51480EF4F90BE /* FMDatabaseAdditions.m */,
+				100F92D9AD485242C5D60CEF805C5DCF /* FMDatabasePool.h */,
+				287A417885C6B3C346B31927E23B0720 /* FMDatabasePool.m */,
+				3B9DB8113932AC38693FF3AE7F065BEC /* FMDatabaseQueue.h */,
+				8A7CCDA3B08218BA752F9FA1F2B057AD /* FMDatabaseQueue.m */,
+				2817DB8A5898A4D825839CBB0BDB8191 /* FMDB.h */,
+				BA7B131C29DDA87DD23F348BD28F4D58 /* FMResultSet.h */,
+				92C6209869DBCD20A86875D4A6566DEE /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36B9F3DE527C6F2F08C829B334EE878D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F54ADF7361C56EAFA3F6301AC103BD /* Pods-sipleTimer60-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC2789C8F125262E99DAC01D3951277 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8C55564E0EAE2CCA07E7F87A77F3C0 /* SwiftProgressView-umbrella.h in Headers */,
+				D96BEB6712FBDFD466B288E50E41E0F7 /* SwiftProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */,
+				538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */,
+				0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */,
+				7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */,
+				219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */,
+				A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */,
+				BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5275B5AAB1FF1DFE7769D37F364F2CAA /* Pods-sipleTimer60 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBBD7C509AC6D6C7FC9CE21CC71AF0F /* Build configuration list for PBXNativeTarget "Pods-sipleTimer60" */;
+			buildPhases = (
+				36B9F3DE527C6F2F08C829B334EE878D /* Headers */,
+				9AFED7694C9A2D0EB2C270DB860D5A2C /* Sources */,
+				C966150752AA58C3A5AFE04332993688 /* Frameworks */,
+				58DCAC306724F5B1AFE4E1FA655A76FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF8E12B5F4923B949EC82ACDAF1FB2F /* PBXTargetDependency */,
+				F66F074EFC9BE08B78118ACF5925F8F1 /* PBXTargetDependency */,
+				AD2449E7C014D0E6327A3AE537DDE9C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-sipleTimer60";
+			productName = "Pods-sipleTimer60";
+			productReference = B949EC50059351CAE0DF6739B6ECB21C /* Pods_sipleTimer60.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */,
+				7E0D56167C29831E3033100E4A70F3B9 /* Sources */,
+				41E857D338F96D89E73F6E28241F0A8B /* Frameworks */,
+				2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A38DC358AA1571645C6B63937370D243 /* SwiftProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F6E04EA1A2CC24FC27677513183769 /* Build configuration list for PBXNativeTarget "SwiftProgressView" */;
+			buildPhases = (
+				4EC2789C8F125262E99DAC01D3951277 /* Headers */,
+				D182230C921DB232233F8033F0EAD2E7 /* Sources */,
+				E2E2C523CE3D72686EB98E90B0B83456 /* Frameworks */,
+				1B443DF0D3D746D984E2462F135105B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftProgressView;
+			productName = SwiftProgressView;
+			productReference = F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B39D566B8A6569E665E19B465111C4D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
+				5275B5AAB1FF1DFE7769D37F364F2CAA /* Pods-sipleTimer60 */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				A38DC358AA1571645C6B63937370D243 /* SwiftProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B443DF0D3D746D984E2462F135105B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DCAC306724F5B1AFE4E1FA655A76FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E0D56167C29831E3033100E4A70F3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */,
+				0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */,
+				0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */,
+				0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */,
+				7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */,
+				FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFED7694C9A2D0EB2C270DB860D5A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F33272269FB4080277499D52FA7E9FC /* Pods-sipleTimer60-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D182230C921DB232233F8033F0EAD2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB24FD0482483622A230D5AF717C933A /* ProgressPieView.swift in Sources */,
+				C8942EAFFB4ED83B886B468F211B2A8F /* ProgressRingView.swift in Sources */,
+				D76615FFD08132780A1199D4D0B4FFF0 /* ProgressView.swift in Sources */,
+				33256462A3D489D73B8F002C87C47D81 /* SwiftProgressView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD2449E7C014D0E6327A3AE537DDE9C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftProgressView;
+			target = A38DC358AA1571645C6B63937370D243 /* SwiftProgressView */;
+			targetProxy = 274AA351B2248718F9408495CE0D4540 /* PBXContainerItemProxy */;
+		};
+		CFF8E12B5F4923B949EC82ACDAF1FB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = BBE36F4FDAD9A3BEF7BE09168D3AA622 /* PBXContainerItemProxy */;
+		};
+		F66F074EFC9BE08B78118ACF5925F8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 67E258A59A2A1578AE5A7980C07894D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02910E73C9BC355FA20483345A8BAE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963B0E54E4E11C731C91A09E78568F00 /* FMDB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		530B03C68515C7A6D1065CBF77F68F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D52D3B06A1E6F9B746D6EEC02507288 /* Pods-sipleTimer60.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5595DB483511168853EE71C2ADEF6523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A27EBC2AE590C46E75BC15CAA0A22ED /* FMDB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77F1960E30778B72C87BC72FFFD10828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46535C1B7699B4738CD79942FFC50295 /* Pods-sipleTimer60.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BDC22F4A5310B94FA6BC98505DA1DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C200E7D8098E26D78EC1365B5C8B473E /* SwiftProgressView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressView/SwiftProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProgressView;
+				PRODUCT_NAME = SwiftProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A7B6062887F910933E5B79D1B2D6A3 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E69B410B24122D3F2A7123E004464C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39EA63D557A7BFCA46612437AE57F27 /* SwiftProgressView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressView/SwiftProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProgressView;
+				PRODUCT_NAME = SwiftProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072A9D8F3FDD887C95ECEB6379DD80CD /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBBD7C509AC6D6C7FC9CE21CC71AF0F /* Build configuration list for PBXNativeTarget "Pods-sipleTimer60" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530B03C68515C7A6D1065CBF77F68F92 /* Debug */,
+				77F1960E30778B72C87BC72FFFD10828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F6E04EA1A2CC24FC27677513183769 /* Build configuration list for PBXNativeTarget "SwiftProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDC22F4A5310B94FA6BC98505DA1DCE /* Debug */,
+				E69B410B24122D3F2A7123E004464C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02910E73C9BC355FA20483345A8BAE44 /* Debug */,
+				5595DB483511168853EE71C2ADEF6523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
