@@ -19,7 +19,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
     let pickerList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-    let hisDAO = historyDAO() // SQLite 처리를 담당할 DAO 객체
+    let hisDAO = HistoryDAO() // SQLite 처리를 담당할 DAO 객체
 
     // timer
     var mTimer: Timer?

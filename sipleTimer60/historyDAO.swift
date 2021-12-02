@@ -8,7 +8,7 @@
 import Foundation
 import FMDB
 
-class historyDAO {
+class HistoryDAO {
     typealias historyRecord = (Int, String)
 
     // SQLite 연결 및 초기화

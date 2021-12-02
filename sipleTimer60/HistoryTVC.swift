@@ -7,10 +7,10 @@
 
 import UIKit
 
-class historyTVC: UITableViewController {
+class HistoryTVC: UITableViewController {
 
     var historyList: [(counting: Int, date: String)]! // 데이터 소스용 멤버 변수
-    let hisDAO = historyDAO() // SQLite 처리를 담당할 DAO 객체
+    let hisDAO = HistoryDAO() // SQLite 처리를 담당할 DAO 객체
 
     override func viewDidLoad() {
         self.historyList = self.hisDAO.find() // 기존 저장된 부서 정보를 가져온다.
@@ -45,14 +45,6 @@ class historyTVC: UITableViewController {
         return cell!
     }
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
     // 목록 편집 형식을 결정하는 함수(삭제 / 수정)
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         return UITableViewCell.EditingStyle.delete
@@ -69,30 +61,4 @@ class historyTVC: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

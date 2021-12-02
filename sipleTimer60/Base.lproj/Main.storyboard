@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ovq-sB-hm2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ovq-sB-hm2">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sipleTimer60" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="simpleTimer60" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,7 +147,7 @@
         <!--TimeVC-->
         <scene sceneID="Dow-Hb-14u">
             <objects>
-                <viewController id="l5K-O9-ucn" customClass="timeVC" customModule="sipleTimer60" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="l5K-O9-ucn" customClass="TimeVC" customModule="simpleTimer60" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0zh-6O-PI1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,7 +185,7 @@
         <!--HistoryTVC-->
         <scene sceneID="m38-n0-54I">
             <objects>
-                <tableViewController id="KlF-E4-uIH" customClass="historyTVC" customModule="sipleTimer60" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="KlF-E4-uIH" customClass="HistoryTVC" customModule="simpleTimer60" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uuL-oh-YmC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,7 +213,7 @@
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HISTORY_CELL" id="c90-2x-stc">
-                                <rect key="frame" x="0.0" y="229.33333396911621" width="414" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="249.66666603088379" width="414" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c90-2x-stc" id="Sks-gZ-l0W">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
@@ -254,7 +255,7 @@
         <!--settings-->
         <scene sceneID="nr6-5s-gf7">
             <objects>
-                <tableViewController id="Ql9-jQ-0Ow" customClass="settingsTVC" customModule="sipleTimer60" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Ql9-jQ-0Ow" customClass="SettingsTVC" customModule="simpleTimer60" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="WG0-Lx-cmY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,7 +282,7 @@
                             <color key="backgroundColor" red="1" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="a8j-6w-AYZ">
-                            <rect key="frame" x="0.0" y="473.66666828502309" width="414" height="169"/>
+                            <rect key="frame" x="0.0" y="492.33333206176758" width="414" height="169"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="simple60s " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSO-Bq-hib">
@@ -298,7 +299,7 @@
                             <tableViewSection id="vE3-Xy-CGc">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="44" id="3Pg-Un-60x">
-                                        <rect key="frame" x="0.0" y="229.33333396911621" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="249.66666603088379" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Pg-Un-60x" id="mjt-RO-IxN">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -337,7 +338,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="44" id="QoH-ov-3W1">
-                                        <rect key="frame" x="0.0" y="273.33333396911621" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="293.66666603088379" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QoH-ov-3W1" id="Agz-53-9gD">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -376,7 +377,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="44" id="ZN0-j6-cWW">
-                                        <rect key="frame" x="0.0" y="317.33333396911621" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="337.66666603088379" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZN0-j6-cWW" id="vcx-xo-6GC">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -415,7 +416,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="44" id="qmW-E9-dZk">
-                                        <rect key="frame" x="0.0" y="361.33333396911621" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="381.66666603088379" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qmW-E9-dZk" id="9Y0-li-pge">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -454,7 +455,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="44" id="cND-t8-M2M">
-                                        <rect key="frame" x="0.0" y="405.33333396911621" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="425.66666603088379" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cND-t8-M2M" id="tJw-eI-5Wb">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -518,7 +519,7 @@
         <image name="bell.badge" catalog="system" width="128" height="124"/>
         <image name="clock.arrow.circlepath" catalog="system" width="128" height="110"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
-        <image name="iphone.radiowaves.left.and.right" catalog="system" width="128" height="86"/>
+        <image name="iphone.radiowaves.left.and.right" catalog="system" width="128" height="85"/>
         <image name="launch.png" width="474.72000122070312" height="471.83999633789062"/>
         <image name="play" width="200.33332824707031" height="200.33332824707031"/>
         <image name="speaker.wave.2" catalog="system" width="128" height="90"/>

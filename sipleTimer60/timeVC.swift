@@ -7,7 +7,7 @@
 
 import UIKit
 
-class timeVC: UIViewController {
+class TimeVC: UIViewController {
 
     @IBOutlet weak var timePicker: UIDatePicker!
 

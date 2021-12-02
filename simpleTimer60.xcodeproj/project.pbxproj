@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0314AB1526A44DC8004257A6 /* historyDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314AB1426A44DC8004257A6 /* historyDAO.swift */; };
-		0314AB1726A554B0004257A6 /* historyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314AB1626A554B0004257A6 /* historyTVC.swift */; };
+		0314AB1726A554B0004257A6 /* HistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314AB1626A554B0004257A6 /* HistoryTVC.swift */; };
 		0314AB1826A55AC9004257A6 /* history.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 03D33E4D26A422F000AC735B /* history.sqlite */; };
 		0320111F26D9AF550084C99F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0320111E26D9AF550084C99F /* .swiftlint.yml */; };
-		034A1A3626A1667100ADA75C /* settingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A1A3526A1667100ADA75C /* settingsTVC.swift */; };
+		034A1A3626A1667100ADA75C /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A1A3526A1667100ADA75C /* SettingsTVC.swift */; };
 		037EA88826BA74FB00FF4EBE /* timeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037EA88726BA74FB00FF4EBE /* timeVC.swift */; };
 		0387608B26A5A592005C0571 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0387608A26A5A592005C0571 /* launch.png */; };
 		03EB1CD926A0407F000130F4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0360A004269DBD8C0094FBE5 /* AudioToolbox.framework */; };
@@ -26,15 +26,15 @@
 
 /* Begin PBXFileReference section */
 		0314AB1426A44DC8004257A6 /* historyDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyDAO.swift; sourceTree = "<group>"; };
-		0314AB1626A554B0004257A6 /* historyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyTVC.swift; sourceTree = "<group>"; };
+		0314AB1626A554B0004257A6 /* HistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVC.swift; sourceTree = "<group>"; };
 		0320111E26D9AF550084C99F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		034A1A3526A1667100ADA75C /* settingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsTVC.swift; sourceTree = "<group>"; };
+		034A1A3526A1667100ADA75C /* SettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
 		0360A004269DBD8C0094FBE5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		037EA88726BA74FB00FF4EBE /* timeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeVC.swift; sourceTree = "<group>"; };
 		0387608A26A5A592005C0571 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		03D33E4D26A422F000AC735B /* history.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = history.sqlite; sourceTree = "<group>"; };
 		03D33E4E26A4314D00AC735B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		03FF37E9269D673500791D35 /* sipleTimer60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sipleTimer60.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FF37E9269D673500791D35 /* simpleTimer60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleTimer60.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FF37EC269D673500791D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FF37EE269D673500791D35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03FF37F0269D673500791D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		03FF37EA269D673500791D35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03FF37E9269D673500791D35 /* sipleTimer60.app */,
+				03FF37E9269D673500791D35 /* simpleTimer60.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,8 +98,8 @@
 				03FF37FA269D673900791D35 /* Info.plist */,
 				03D33E4D26A422F000AC735B /* history.sqlite */,
 				03FF37F0269D673500791D35 /* ViewController.swift */,
-				0314AB1626A554B0004257A6 /* historyTVC.swift */,
-				034A1A3526A1667100ADA75C /* settingsTVC.swift */,
+				0314AB1626A554B0004257A6 /* HistoryTVC.swift */,
+				034A1A3526A1667100ADA75C /* SettingsTVC.swift */,
 				0314AB1426A44DC8004257A6 /* historyDAO.swift */,
 				037EA88726BA74FB00FF4EBE /* timeVC.swift */,
 				0320111E26D9AF550084C99F /* .swiftlint.yml */,
@@ -129,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03FF37E8269D673500791D35 /* sipleTimer60 */ = {
+		03FF37E8269D673500791D35 /* simpleTimer60 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03FF37FD269D673900791D35 /* Build configuration list for PBXNativeTarget "sipleTimer60" */;
+			buildConfigurationList = 03FF37FD269D673900791D35 /* Build configuration list for PBXNativeTarget "simpleTimer60" */;
 			buildPhases = (
 				A8791CE47752922DDAFE29DD /* [CP] Check Pods Manifest.lock */,
 				03FF37E5269D673500791D35 /* Sources */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = sipleTimer60;
+			name = simpleTimer60;
 			productName = sipleTimer60;
-			productReference = 03FF37E9269D673500791D35 /* sipleTimer60.app */;
+			productReference = 03FF37E9269D673500791D35 /* simpleTimer60.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03FF37E4269D673500791D35 /* Build configuration list for PBXProject "sipleTimer60" */;
+			buildConfigurationList = 03FF37E4269D673500791D35 /* Build configuration list for PBXProject "simpleTimer60" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03FF37E8269D673500791D35 /* sipleTimer60 */,
+				03FF37E8269D673500791D35 /* simpleTimer60 */,
 			);
 		};
 /* End PBXProject section */
@@ -264,8 +264,8 @@
 				03FF37F1269D673500791D35 /* ViewController.swift in Sources */,
 				03FF37ED269D673500791D35 /* AppDelegate.swift in Sources */,
 				037EA88826BA74FB00FF4EBE /* timeVC.swift in Sources */,
-				0314AB1726A554B0004257A6 /* historyTVC.swift in Sources */,
-				034A1A3626A1667100ADA75C /* settingsTVC.swift in Sources */,
+				0314AB1726A554B0004257A6 /* HistoryTVC.swift in Sources */,
+				034A1A3626A1667100ADA75C /* SettingsTVC.swift in Sources */,
 				03FF37EF269D673500791D35 /* SceneDelegate.swift in Sources */,
 				0314AB1526A44DC8004257A6 /* historyDAO.swift in Sources */,
 			);
@@ -456,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03FF37E4269D673500791D35 /* Build configuration list for PBXProject "sipleTimer60" */ = {
+		03FF37E4269D673500791D35 /* Build configuration list for PBXProject "simpleTimer60" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03FF37FB269D673900791D35 /* Debug */,
@@ -465,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03FF37FD269D673900791D35 /* Build configuration list for PBXNativeTarget "sipleTimer60" */ = {
+		03FF37FD269D673900791D35 /* Build configuration list for PBXNativeTarget "simpleTimer60" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03FF37FE269D673900791D35 /* Debug */,

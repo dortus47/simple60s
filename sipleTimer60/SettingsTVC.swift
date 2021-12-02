@@ -7,7 +7,7 @@
 
 import UIKit
 
-class settingsTVC: UITableViewController {
+class SettingsTVC: UITableViewController {
 
     @IBOutlet weak var switchAutoHistory: UISwitch!
     @IBOutlet weak var switchVibration: UISwitch!

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "03FF37E8269D673500791D35"
                BuildableName = "sipleTimer60.app"
-               BlueprintName = "sipleTimer60"
-               ReferencedContainer = "container:sipleTimer60.xcodeproj">
+               BlueprintName = "simpleTimer60"
+               ReferencedContainer = "container:simpleTimer60.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03FF37E8269D673500791D35"
             BuildableName = "sipleTimer60.app"
-            BlueprintName = "sipleTimer60"
-            ReferencedContainer = "container:sipleTimer60.xcodeproj">
+            BlueprintName = "simpleTimer60"
+            ReferencedContainer = "container:simpleTimer60.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03FF37E8269D673500791D35"
             BuildableName = "sipleTimer60.app"
-            BlueprintName = "sipleTimer60"
-            ReferencedContainer = "container:sipleTimer60.xcodeproj">
+            BlueprintName = "simpleTimer60"
+            ReferencedContainer = "container:simpleTimer60.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
