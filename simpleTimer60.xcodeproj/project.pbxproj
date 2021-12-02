@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0314AB1526A44DC8004257A6 /* historyDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314AB1426A44DC8004257A6 /* historyDAO.swift */; };
+		0314AB1526A44DC8004257A6 /* HistoryDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314AB1426A44DC8004257A6 /* HistoryDAO.swift */; };
 		0314AB1726A554B0004257A6 /* HistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314AB1626A554B0004257A6 /* HistoryTVC.swift */; };
 		0314AB1826A55AC9004257A6 /* history.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 03D33E4D26A422F000AC735B /* history.sqlite */; };
 		0320111F26D9AF550084C99F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0320111E26D9AF550084C99F /* .swiftlint.yml */; };
 		034A1A3626A1667100ADA75C /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A1A3526A1667100ADA75C /* SettingsTVC.swift */; };
-		037EA88826BA74FB00FF4EBE /* timeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037EA88726BA74FB00FF4EBE /* timeVC.swift */; };
+		037EA88826BA74FB00FF4EBE /* TimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037EA88726BA74FB00FF4EBE /* TimeVC.swift */; };
 		0387608B26A5A592005C0571 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0387608A26A5A592005C0571 /* launch.png */; };
 		03EB1CD926A0407F000130F4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0360A004269DBD8C0094FBE5 /* AudioToolbox.framework */; };
 		03FF37ED269D673500791D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF37EC269D673500791D35 /* AppDelegate.swift */; };
@@ -21,16 +21,17 @@
 		03FF37F4269D673500791D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FF37F2269D673500791D35 /* Main.storyboard */; };
 		03FF37F6269D673900791D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FF37F5269D673900791D35 /* Assets.xcassets */; };
 		03FF37F9269D673900791D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FF37F7269D673900791D35 /* LaunchScreen.storyboard */; };
-		6C04371832A3A2F3E4C64F65 /* Pods_sipleTimer60.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6567E3BF9180A49143993A /* Pods_sipleTimer60.framework */; };
+		C1FC27469C744D4AD8FFA0FA /* Pods_simpleTimer60.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADF76EAD35A10EEC9EB9AD /* Pods_simpleTimer60.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0314AB1426A44DC8004257A6 /* historyDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyDAO.swift; sourceTree = "<group>"; };
+		00FEE7A011D057F7BBBC7307 /* Pods-simpleTimer60.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simpleTimer60.debug.xcconfig"; path = "Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60.debug.xcconfig"; sourceTree = "<group>"; };
+		0314AB1426A44DC8004257A6 /* HistoryDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDAO.swift; sourceTree = "<group>"; };
 		0314AB1626A554B0004257A6 /* HistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVC.swift; sourceTree = "<group>"; };
 		0320111E26D9AF550084C99F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		034A1A3526A1667100ADA75C /* SettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
 		0360A004269DBD8C0094FBE5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		037EA88726BA74FB00FF4EBE /* timeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeVC.swift; sourceTree = "<group>"; };
+		037EA88726BA74FB00FF4EBE /* TimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVC.swift; sourceTree = "<group>"; };
 		0387608A26A5A592005C0571 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		03D33E4D26A422F000AC735B /* history.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = history.sqlite; sourceTree = "<group>"; };
 		03D33E4E26A4314D00AC735B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -42,9 +43,10 @@
 		03FF37F5269D673900791D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03FF37F8269D673900791D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03FF37FA269D673900791D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A6567E3BF9180A49143993A /* Pods_sipleTimer60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sipleTimer60.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6323721262905AD0209512DF /* Pods-sipleTimer60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sipleTimer60.release.xcconfig"; path = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60.release.xcconfig"; sourceTree = "<group>"; };
 		8D4801D3F36717E405D7D420 /* Pods-sipleTimer60.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sipleTimer60.debug.xcconfig"; path = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60.debug.xcconfig"; sourceTree = "<group>"; };
+		A15E3AF02C504E17D840C553 /* Pods-simpleTimer60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simpleTimer60.release.xcconfig"; path = "Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60.release.xcconfig"; sourceTree = "<group>"; };
+		FAADF76EAD35A10EEC9EB9AD /* Pods_simpleTimer60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simpleTimer60.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C04371832A3A2F3E4C64F65 /* Pods_sipleTimer60.framework in Frameworks */,
 				03EB1CD926A0407F000130F4 /* AudioToolbox.framework in Frameworks */,
+				C1FC27469C744D4AD8FFA0FA /* Pods_simpleTimer60.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +73,7 @@
 		03FF37E0269D673500791D35 = {
 			isa = PBXGroup;
 			children = (
-				03FF37EB269D673500791D35 /* sipleTimer60 */,
+				03FF37EB269D673500791D35 /* simpleTimer60 */,
 				03FF37EA269D673500791D35 /* Products */,
 				4C0CF82AFBD02AACBE822CDD /* Pods */,
 				944B9AE199BB2CB05F4DE197 /* Frameworks */,
@@ -86,7 +88,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03FF37EB269D673500791D35 /* sipleTimer60 */ = {
+		03FF37EB269D673500791D35 /* simpleTimer60 */ = {
 			isa = PBXGroup;
 			children = (
 				034CA9CF26A19F0D00F5F1E7 /* files */,
@@ -100,11 +102,11 @@
 				03FF37F0269D673500791D35 /* ViewController.swift */,
 				0314AB1626A554B0004257A6 /* HistoryTVC.swift */,
 				034A1A3526A1667100ADA75C /* SettingsTVC.swift */,
-				0314AB1426A44DC8004257A6 /* historyDAO.swift */,
-				037EA88726BA74FB00FF4EBE /* timeVC.swift */,
+				0314AB1426A44DC8004257A6 /* HistoryDAO.swift */,
+				037EA88726BA74FB00FF4EBE /* TimeVC.swift */,
 				0320111E26D9AF550084C99F /* .swiftlint.yml */,
 			);
-			path = sipleTimer60;
+			path = simpleTimer60;
 			sourceTree = "<group>";
 		};
 		4C0CF82AFBD02AACBE822CDD /* Pods */ = {
@@ -112,6 +114,8 @@
 			children = (
 				8D4801D3F36717E405D7D420 /* Pods-sipleTimer60.debug.xcconfig */,
 				6323721262905AD0209512DF /* Pods-sipleTimer60.release.xcconfig */,
+				00FEE7A011D057F7BBBC7307 /* Pods-simpleTimer60.debug.xcconfig */,
+				A15E3AF02C504E17D840C553 /* Pods-simpleTimer60.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -121,7 +125,7 @@
 			children = (
 				03D33E4E26A4314D00AC735B /* libsqlite3.tbd */,
 				0360A004269DBD8C0094FBE5 /* AudioToolbox.framework */,
-				5A6567E3BF9180A49143993A /* Pods_sipleTimer60.framework */,
+				FAADF76EAD35A10EEC9EB9AD /* Pods_simpleTimer60.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,15 +225,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A8791CE47752922DDAFE29DD /* [CP] Check Pods Manifest.lock */ = {
@@ -247,7 +251,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sipleTimer60-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-simpleTimer60-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -263,11 +267,11 @@
 			files = (
 				03FF37F1269D673500791D35 /* ViewController.swift in Sources */,
 				03FF37ED269D673500791D35 /* AppDelegate.swift in Sources */,
-				037EA88826BA74FB00FF4EBE /* timeVC.swift in Sources */,
+				037EA88826BA74FB00FF4EBE /* TimeVC.swift in Sources */,
 				0314AB1726A554B0004257A6 /* HistoryTVC.swift in Sources */,
 				034A1A3626A1667100ADA75C /* SettingsTVC.swift in Sources */,
 				03FF37EF269D673500791D35 /* SceneDelegate.swift in Sources */,
-				0314AB1526A44DC8004257A6 /* historyDAO.swift in Sources */,
+				0314AB1526A44DC8004257A6 /* HistoryDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,19 +417,19 @@
 		};
 		03FF37FE269D673900791D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D4801D3F36717E405D7D420 /* Pods-sipleTimer60.debug.xcconfig */;
+			baseConfigurationReference = 00FEE7A011D057F7BBBC7307 /* Pods-simpleTimer60.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z9N6W59ZG;
-				INFOPLIST_FILE = sipleTimer60/Info.plist;
+				INFOPLIST_FILE = simpleTimer60/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.01;
-				PRODUCT_BUNDLE_IDENTIFIER = Mies.sipleTimer60;
+				PRODUCT_BUNDLE_IDENTIFIER = Mies.simpleTimer60;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -434,19 +438,19 @@
 		};
 		03FF37FF269D673900791D35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6323721262905AD0209512DF /* Pods-sipleTimer60.release.xcconfig */;
+			baseConfigurationReference = A15E3AF02C504E17D840C553 /* Pods-simpleTimer60.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z9N6W59ZG;
-				INFOPLIST_FILE = sipleTimer60/Info.plist;
+				INFOPLIST_FILE = simpleTimer60/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.01;
-				PRODUCT_BUNDLE_IDENTIFIER = Mies.sipleTimer60;
+				PRODUCT_BUNDLE_IDENTIFIER = Mies.simpleTimer60;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

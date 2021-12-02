@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/jang-eunseock/&#x1106;&#x116e;&#x11ab;&#x1109;&#x1165;/GitHub/simple60s/simpleTimer60.xcodeproj">
+      location = "group:/Users/jang-eunseock/문서/GitHub/simple60s/simpleTimer60.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:simpleTimer60.xcodeproj">
    </FileRef>
 </Workspace>

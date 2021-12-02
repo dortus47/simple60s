@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5275B5AAB1FF1DFE7769D37F364F2CAA"
-               BuildableName = "Pods_sipleTimer60.framework"
-               BlueprintName = "Pods-sipleTimer60"
+               BlueprintIdentifier = "A38DC358AA1571645C6B63937370D243"
+               BuildableName = "SwiftProgressView.framework"
+               BlueprintName = "SwiftProgressView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

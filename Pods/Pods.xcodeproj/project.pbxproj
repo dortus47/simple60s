@@ -19,126 +19,126 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A417885C6B3C346B31927E23B0720 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0808F962A6F026B63C8BF4D76B448703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 019C59307A20365645D51480EF4F90BE /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7CCDA3B08218BA752F9FA1F2B057AD /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 100F92D9AD485242C5D60CEF805C5DCF /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13F54ADF7361C56EAFA3F6301AC103BD /* Pods-sipleTimer60-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898CBD3BB9652AAD9D10895A6E540FF8 /* Pods-sipleTimer60-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B9B8AAC2C78173883F8139F425F4EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1102E2FC624F0718455F636395E24319 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33256462A3D489D73B8F002C87C47D81 /* SwiftProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 646E682AC88C213481C93090E6E90D95 /* SwiftProgressView-dummy.m */; };
-		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4347CCEFBF877BCC2764250F6E990976 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F33272269FB4080277499D52FA7E9FC /* Pods-sipleTimer60-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD3EB215371FE5CA5F4C901B2054634 /* Pods-sipleTimer60-dummy.m */; };
-		538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C6919D94ABF86B3B8174FC4E439E96 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2B3A3E8F6C593D8B29F06BB99831A /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9DB8113932AC38693FF3AE7F065BEC /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35559BB5869DEF9BBD8E9845F892D2D1 /* FMDB-dummy.m */; };
-		8E8C55564E0EAE2CCA07E7F87A77F3C0 /* SwiftProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 139EAEF7E7B2CA7DF3FC04B80C3F4DB2 /* SwiftProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2817DB8A5898A4D825839CBB0BDB8191 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB24FD0482483622A230D5AF717C933A /* ProgressPieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AA88EFECAE02574DB1C2F21EAF642 /* ProgressPieView.swift */; };
-		BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7B131C29DDA87DD23F348BD28F4D58 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8942EAFFB4ED83B886B468F211B2A8F /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75D7F84DFFC96B9AAF4F90E41CD748 /* ProgressRingView.swift */; };
-		D76615FFD08132780A1199D4D0B4FFF0 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBD9458648C8C70C5DED38B5597CD3 /* ProgressView.swift */; };
-		D96BEB6712FBDFD466B288E50E41E0F7 /* SwiftProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7DB957C5EAD83D6E0F6377A14C54AF /* SwiftProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C6209869DBCD20A86875D4A6566DEE /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35559BB5869DEF9BBD8E9845F892D2D1 /* FMDB-dummy.m */; };
+		24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C6919D94ABF86B3B8174FC4E439E96 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2817DB8A5898A4D825839CBB0BDB8191 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1102E2FC624F0718455F636395E24319 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2B3A3E8F6C593D8B29F06BB99831A /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4DF766F551379675EDF134FA46678A3C /* ProgressPieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AA88EFECAE02574DB1C2F21EAF642 /* ProgressPieView.swift */; };
+		548F0E7584A74C3D378E67F0423F8FD9 /* Pods-simpleTimer60-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9B71877E6062C5DCB524BDC09B997 /* Pods-simpleTimer60-dummy.m */; };
+		54F5853BF3D2F24AB759C83484309515 /* SwiftProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 139EAEF7E7B2CA7DF3FC04B80C3F4DB2 /* SwiftProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5502C94FC7AD938DDC9CFBA97EFF9922 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBD9458648C8C70C5DED38B5597CD3 /* ProgressView.swift */; };
+		58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 100F92D9AD485242C5D60CEF805C5DCF /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594A36F3E538E89656F6B4803B82E958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9DB8113932AC38693FF3AE7F065BEC /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4E5FFAEBDB41265BD0BE0592722DB1 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75D7F84DFFC96B9AAF4F90E41CD748 /* ProgressRingView.swift */; };
+		6E89F4391F16D882FAF7AC54BB6A6E7E /* SwiftProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 646E682AC88C213481C93090E6E90D95 /* SwiftProgressView-dummy.m */; };
+		73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A417885C6B3C346B31927E23B0720 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7CCDA3B08218BA752F9FA1F2B057AD /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7B131C29DDA87DD23F348BD28F4D58 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C6209869DBCD20A86875D4A6566DEE /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95226EE6CE3F522BB3A3A1CE09045157 /* Pods-simpleTimer60-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 117B2670F60BF59998BE55D5CCE1968C /* Pods-simpleTimer60-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5686F7DC18A2BF6DBFE49DB1DBFAA92 /* SwiftProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7DB957C5EAD83D6E0F6377A14C54AF /* SwiftProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF5EF67A170658DF32CAB18269AF0EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 019C59307A20365645D51480EF4F90BE /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4347CCEFBF877BCC2764250F6E990976 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		274AA351B2248718F9408495CE0D4540 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A38DC358AA1571645C6B63937370D243;
-			remoteInfo = SwiftProgressView;
-		};
-		67E258A59A2A1578AE5A7980C07894D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
-		};
-		BBE36F4FDAD9A3BEF7BE09168D3AA622 /* PBXContainerItemProxy */ = {
+		5628345412CEA59E6F3A2F9B368FD80E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
 		};
+		6C94B8A0AA5B72E7F6B679A4FAE60A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		AF9A470042449531E612F02AA6F97F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38DC358AA1571645C6B63937370D243;
+			remoteInfo = SwiftProgressView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		019C59307A20365645D51480EF4F90BE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		0605AC97D61D27D4F28529E9EC628F10 /* Pods-simpleTimer60 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-simpleTimer60"; path = Pods_simpleTimer60.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		072A9D8F3FDD887C95ECEB6379DD80CD /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		100F92D9AD485242C5D60CEF805C5DCF /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		1102E2FC624F0718455F636395E24319 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		117B2670F60BF59998BE55D5CCE1968C /* Pods-simpleTimer60-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-simpleTimer60-umbrella.h"; sourceTree = "<group>"; };
 		139EAEF7E7B2CA7DF3FC04B80C3F4DB2 /* SwiftProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProgressView-umbrella.h"; sourceTree = "<group>"; };
 		1C3BE313E06B5B6020BA477BD1DA482B /* SwiftProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProgressView-prefix.pch"; sourceTree = "<group>"; };
 		2817DB8A5898A4D825839CBB0BDB8191 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		287A417885C6B3C346B31927E23B0720 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		2DD9B71877E6062C5DCB524BDC09B997 /* Pods-simpleTimer60-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-simpleTimer60-dummy.m"; sourceTree = "<group>"; };
 		35559BB5869DEF9BBD8E9845F892D2D1 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		387956B4688615AC962CAFC80BCB30DC /* Pods-simpleTimer60-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simpleTimer60-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B9DB8113932AC38693FF3AE7F065BEC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		3D9ED58170D85F4086087DE900A4DC87 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		4347CCEFBF877BCC2764250F6E990976 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		46535C1B7699B4738CD79942FFC50295 /* Pods-sipleTimer60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sipleTimer60.release.xcconfig"; sourceTree = "<group>"; };
 		4EBB29CD03DCA55895D7E56928AD469B /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		50C6919D94ABF86B3B8174FC4E439E96 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		59A2B3A3E8F6C593D8B29F06BB99831A /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
-		5ED3918E0FB2E8FBB4BCC934F9F198BB /* Pods-sipleTimer60-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sipleTimer60-Info.plist"; sourceTree = "<group>"; };
 		646E682AC88C213481C93090E6E90D95 /* SwiftProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftProgressView-dummy.m"; sourceTree = "<group>"; };
+		6DB14FEAB4B0B04F98EDFBBA0A59DFF9 /* Pods-simpleTimer60-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-simpleTimer60-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B7DB957C5EAD83D6E0F6377A14C54AF /* SwiftProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftProgressView.h; path = SwiftProgressView/SwiftProgressView.h; sourceTree = "<group>"; };
-		7D52D3B06A1E6F9B746D6EEC02507288 /* Pods-sipleTimer60.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sipleTimer60.debug.xcconfig"; sourceTree = "<group>"; };
 		7F073FC004A9C15370C5AA2A0E63EE80 /* SwiftProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftProgressView.modulemap; sourceTree = "<group>"; };
 		88BBD9458648C8C70C5DED38B5597CD3 /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = SwiftProgressView/Sources/ProgressView.swift; sourceTree = "<group>"; };
-		898CBD3BB9652AAD9D10895A6E540FF8 /* Pods-sipleTimer60-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sipleTimer60-umbrella.h"; sourceTree = "<group>"; };
 		8A27EBC2AE590C46E75BC15CAA0A22ED /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
 		8A7CCDA3B08218BA752F9FA1F2B057AD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		92C6209869DBCD20A86875D4A6566DEE /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		93BA2594B59F4EEF78CCC3E8B4B6F416 /* Pods-sipleTimer60-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sipleTimer60-acknowledgements.plist"; sourceTree = "<group>"; };
+		94C987B3D626A6A9FDD3C821849F6E0A /* Pods-simpleTimer60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simpleTimer60.release.xcconfig"; sourceTree = "<group>"; };
 		963B0E54E4E11C731C91A09E78568F00 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17D050163F973F55F4F5C2ABAE995EB /* Pods-sipleTimer60-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sipleTimer60-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B949EC50059351CAE0DF6739B6ECB21C /* Pods_sipleTimer60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sipleTimer60.framework; path = "Pods-sipleTimer60.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B979F842CE2475C25FC937F074886945 /* Pods-simpleTimer60.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simpleTimer60.debug.xcconfig"; sourceTree = "<group>"; };
 		BA7B131C29DDA87DD23F348BD28F4D58 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		BD75D7F84DFFC96B9AAF4F90E41CD748 /* ProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressRingView.swift; path = SwiftProgressView/Sources/ProgressRingView.swift; sourceTree = "<group>"; };
 		C200E7D8098E26D78EC1365B5C8B473E /* SwiftProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProgressView.debug.xcconfig; sourceTree = "<group>"; };
-		CCB81E2D523A149A90A3B8DC5D41F086 /* Pods-sipleTimer60.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sipleTimer60.modulemap"; sourceTree = "<group>"; };
 		D39EA63D557A7BFCA46612437AE57F27 /* SwiftProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProgressView.release.xcconfig; sourceTree = "<group>"; };
+		D64FAF38C45F7A5D1AABC0E71511673C /* Pods-simpleTimer60-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simpleTimer60-Info.plist"; sourceTree = "<group>"; };
 		DBB1A3DECFD6E1B5FF3F4F3ACFAE1823 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
-		DBD3EB215371FE5CA5F4C901B2054634 /* Pods-sipleTimer60-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sipleTimer60-dummy.m"; sourceTree = "<group>"; };
-		E06A8A30727FF20EF159329EFD2EF13B /* Pods-sipleTimer60-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sipleTimer60-frameworks.sh"; sourceTree = "<group>"; };
+		DF195A524E4768C173B418C3E27F2EFE /* Pods-simpleTimer60-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simpleTimer60-frameworks.sh"; sourceTree = "<group>"; };
 		E6A7B6062887F910933E5B79D1B2D6A3 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
-		F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftProgressView.framework; path = SwiftProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftProgressView; path = SwiftProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46490A671E263C638602FC23EAB5576 /* Pods-simpleTimer60.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-simpleTimer60.modulemap"; sourceTree = "<group>"; };
 		F635EE13B57849AF9279AA72255FE934 /* SwiftProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftProgressView-Info.plist"; sourceTree = "<group>"; };
 		FF1AA88EFECAE02574DB1C2F21EAF642 /* ProgressPieView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressPieView.swift; path = SwiftProgressView/Sources/ProgressPieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		41E857D338F96D89E73F6E28241F0A8B /* Frameworks */ = {
+		050CA29B3E2F365B8716383D6481F6D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */,
+				DF5EF67A170658DF32CAB18269AF0EB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C966150752AA58C3A5AFE04332993688 /* Frameworks */ = {
+		46CE7976A327A98FA11B937B79401E29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0808F962A6F026B63C8BF4D76B448703 /* Foundation.framework in Frameworks */,
+				B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2E2C523CE3D72686EB98E90B0B83456 /* Frameworks */ = {
+		7DF1F305D9643B5F9168C0CFADC57325 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9B8AAC2C78173883F8139F425F4EF4 /* Foundation.framework in Frameworks */,
+				594A36F3E538E89656F6B4803B82E958 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,12 +168,21 @@
 			path = SwiftProgressView;
 			sourceTree = "<group>";
 		};
-		381B2C87A00E5D7B53E70BF5221E6C23 /* Targets Support Files */ = {
+		55F21F2D518D0B64FA8F2DA27D71D710 /* Pods-simpleTimer60 */ = {
 			isa = PBXGroup;
 			children = (
-				8F14FE7CBEC6E5373038197957970D87 /* Pods-sipleTimer60 */,
+				F46490A671E263C638602FC23EAB5576 /* Pods-simpleTimer60.modulemap */,
+				6DB14FEAB4B0B04F98EDFBBA0A59DFF9 /* Pods-simpleTimer60-acknowledgements.markdown */,
+				387956B4688615AC962CAFC80BCB30DC /* Pods-simpleTimer60-acknowledgements.plist */,
+				2DD9B71877E6062C5DCB524BDC09B997 /* Pods-simpleTimer60-dummy.m */,
+				DF195A524E4768C173B418C3E27F2EFE /* Pods-simpleTimer60-frameworks.sh */,
+				D64FAF38C45F7A5D1AABC0E71511673C /* Pods-simpleTimer60-Info.plist */,
+				117B2670F60BF59998BE55D5CCE1968C /* Pods-simpleTimer60-umbrella.h */,
+				B979F842CE2475C25FC937F074886945 /* Pods-simpleTimer60.debug.xcconfig */,
+				94C987B3D626A6A9FDD3C821849F6E0A /* Pods-simpleTimer60.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-simpleTimer60";
+			path = "Target Support Files/Pods-simpleTimer60";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -203,21 +212,14 @@
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		8F14FE7CBEC6E5373038197957970D87 /* Pods-sipleTimer60 */ = {
+		974C37630E4B6E39A557D2DEFE9ECB06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCB81E2D523A149A90A3B8DC5D41F086 /* Pods-sipleTimer60.modulemap */,
-				B17D050163F973F55F4F5C2ABAE995EB /* Pods-sipleTimer60-acknowledgements.markdown */,
-				93BA2594B59F4EEF78CCC3E8B4B6F416 /* Pods-sipleTimer60-acknowledgements.plist */,
-				DBD3EB215371FE5CA5F4C901B2054634 /* Pods-sipleTimer60-dummy.m */,
-				E06A8A30727FF20EF159329EFD2EF13B /* Pods-sipleTimer60-frameworks.sh */,
-				5ED3918E0FB2E8FBB4BCC934F9F198BB /* Pods-sipleTimer60-Info.plist */,
-				898CBD3BB9652AAD9D10895A6E540FF8 /* Pods-sipleTimer60-umbrella.h */,
-				7D52D3B06A1E6F9B746D6EEC02507288 /* Pods-sipleTimer60.debug.xcconfig */,
-				46535C1B7699B4738CD79942FFC50295 /* Pods-sipleTimer60.release.xcconfig */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
+				0605AC97D61D27D4F28529E9EC628F10 /* Pods-simpleTimer60 */,
+				F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView */,
 			);
-			name = "Pods-sipleTimer60";
-			path = "Target Support Files/Pods-sipleTimer60";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9A6673C335939EF7862A3E6D8A6B0486 /* Support Files */ = {
@@ -233,16 +235,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FMDB";
-			sourceTree = "<group>";
-		};
-		B39D566B8A6569E665E19B465111C4D8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
-				B949EC50059351CAE0DF6739B6ECB21C /* Pods_sipleTimer60.framework */,
-				F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B795CCD9B5216882347F100952C59401 /* Support Files */ = {
@@ -270,14 +262,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C7A931475BB180D433B0CD34F7BB7E9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F21F2D518D0B64FA8F2DA27D71D710 /* Pods-simpleTimer60 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C24624A498979D4D4C9C4BF821070D1C /* Pods */,
-				B39D566B8A6569E665E19B465111C4D8 /* Products */,
-				381B2C87A00E5D7B53E70BF5221E6C23 /* Targets Support Files */,
+				974C37630E4B6E39A557D2DEFE9ECB06 /* Products */,
+				C7A931475BB180D433B0CD34F7BB7E9B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -310,69 +310,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36B9F3DE527C6F2F08C829B334EE878D /* Headers */ = {
+		1D8E4317C43E801B146629D24251A1E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F54ADF7361C56EAFA3F6301AC103BD /* Pods-sipleTimer60-umbrella.h in Headers */,
+				F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */,
+				24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */,
+				58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */,
+				5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */,
+				32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */,
+				3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */,
+				8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EC2789C8F125262E99DAC01D3951277 /* Headers */ = {
+		4F8429759C9F516874DB2CFA64168FF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8C55564E0EAE2CCA07E7F87A77F3C0 /* SwiftProgressView-umbrella.h in Headers */,
-				D96BEB6712FBDFD466B288E50E41E0F7 /* SwiftProgressView.h in Headers */,
+				B5686F7DC18A2BF6DBFE49DB1DBFAA92 /* SwiftProgressView.h in Headers */,
+				54F5853BF3D2F24AB759C83484309515 /* SwiftProgressView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */ = {
+		AAEEC7A515C10C98066E999578ED246F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */,
-				538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */,
-				0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */,
-				7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */,
-				219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */,
-				A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */,
-				BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */,
+				95226EE6CE3F522BB3A3A1CE09045157 /* Pods-simpleTimer60-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5275B5AAB1FF1DFE7769D37F364F2CAA /* Pods-sipleTimer60 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BEBBD7C509AC6D6C7FC9CE21CC71AF0F /* Build configuration list for PBXNativeTarget "Pods-sipleTimer60" */;
-			buildPhases = (
-				36B9F3DE527C6F2F08C829B334EE878D /* Headers */,
-				9AFED7694C9A2D0EB2C270DB860D5A2C /* Sources */,
-				C966150752AA58C3A5AFE04332993688 /* Frameworks */,
-				58DCAC306724F5B1AFE4E1FA655A76FB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFF8E12B5F4923B949EC82ACDAF1FB2F /* PBXTargetDependency */,
-				F66F074EFC9BE08B78118ACF5925F8F1 /* PBXTargetDependency */,
-				AD2449E7C014D0E6327A3AE537DDE9C4 /* PBXTargetDependency */,
-			);
-			name = "Pods-sipleTimer60";
-			productName = "Pods-sipleTimer60";
-			productReference = B949EC50059351CAE0DF6739B6ECB21C /* Pods_sipleTimer60.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildConfigurationList = 69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */;
 			buildPhases = (
-				DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */,
-				7E0D56167C29831E3033100E4A70F3B9 /* Sources */,
-				41E857D338F96D89E73F6E28241F0A8B /* Frameworks */,
-				2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */,
+				1D8E4317C43E801B146629D24251A1E5 /* Headers */,
+				4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */,
+				46CE7976A327A98FA11B937B79401E29 /* Frameworks */,
+				391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -380,17 +359,17 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */;
 			productType = "com.apple.product-type.framework";
 		};
 		A38DC358AA1571645C6B63937370D243 /* SwiftProgressView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0F6E04EA1A2CC24FC27677513183769 /* Build configuration list for PBXNativeTarget "SwiftProgressView" */;
+			buildConfigurationList = 6D51DB6451DA36C06FEFBFD1D577EF80 /* Build configuration list for PBXNativeTarget "SwiftProgressView" */;
 			buildPhases = (
-				4EC2789C8F125262E99DAC01D3951277 /* Headers */,
-				D182230C921DB232233F8033F0EAD2E7 /* Sources */,
-				E2E2C523CE3D72686EB98E90B0B83456 /* Frameworks */,
-				1B443DF0D3D746D984E2462F135105B7 /* Resources */,
+				4F8429759C9F516874DB2CFA64168FF8 /* Headers */,
+				2A043EB0364534BEDE7E882193E5A9A5 /* Sources */,
+				050CA29B3E2F365B8716383D6481F6D6 /* Frameworks */,
+				BEAE2EFF5136AB98336868A5CE6CC1B3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -398,7 +377,28 @@
 			);
 			name = SwiftProgressView;
 			productName = SwiftProgressView;
-			productReference = F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView.framework */;
+			productReference = F08573021BE0DEE759C707CC2CD19701 /* SwiftProgressView */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD148A1A39B6E7FBBEC8C308AA9D5ACE /* Pods-simpleTimer60 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62E7FEC2F5E033E35EB6C3FB7A1DF5E /* Build configuration list for PBXNativeTarget "Pods-simpleTimer60" */;
+			buildPhases = (
+				AAEEC7A515C10C98066E999578ED246F /* Headers */,
+				FD3EDF094FB95ED0F593F61850EBDEE4 /* Sources */,
+				7DF1F305D9643B5F9168C0CFADC57325 /* Frameworks */,
+				05F04839221A1D2E7FFACC5A82AB492E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184EDA05CE5413E97908AE66224E18A6 /* PBXTargetDependency */,
+				2E5B95B3BAEC6E1F39A4849C523682A6 /* PBXTargetDependency */,
+				975D11A6F8C8A2F0F29CE39F0AFF4596 /* PBXTargetDependency */,
+			);
+			name = "Pods-simpleTimer60";
+			productName = Pods_simpleTimer60;
+			productReference = 0605AC97D61D27D4F28529E9EC628F10 /* Pods-simpleTimer60 */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -407,24 +407,24 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B39D566B8A6569E665E19B465111C4D8 /* Products */;
+			productRefGroup = 974C37630E4B6E39A557D2DEFE9ECB06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
-				5275B5AAB1FF1DFE7769D37F364F2CAA /* Pods-sipleTimer60 */,
+				FD148A1A39B6E7FBBEC8C308AA9D5ACE /* Pods-simpleTimer60 */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 				A38DC358AA1571645C6B63937370D243 /* SwiftProgressView */,
 			);
@@ -432,21 +432,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B443DF0D3D746D984E2462F135105B7 /* Resources */ = {
+		05F04839221A1D2E7FFACC5A82AB492E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */ = {
+		391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58DCAC306724F5B1AFE4E1FA655A76FB /* Resources */ = {
+		BEAE2EFF5136AB98336868A5CE6CC1B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,63 +456,136 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7E0D56167C29831E3033100E4A70F3B9 /* Sources */ = {
+		2A043EB0364534BEDE7E882193E5A9A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */,
-				0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */,
-				0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */,
-				0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */,
-				7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */,
-				FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */,
+				4DF766F551379675EDF134FA46678A3C /* ProgressPieView.swift in Sources */,
+				5F4E5FFAEBDB41265BD0BE0592722DB1 /* ProgressRingView.swift in Sources */,
+				5502C94FC7AD938DDC9CFBA97EFF9922 /* ProgressView.swift in Sources */,
+				6E89F4391F16D882FAF7AC54BB6A6E7E /* SwiftProgressView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AFED7694C9A2D0EB2C270DB860D5A2C /* Sources */ = {
+		4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F33272269FB4080277499D52FA7E9FC /* Pods-sipleTimer60-dummy.m in Sources */,
+				4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */,
+				EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */,
+				73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */,
+				77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */,
+				176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */,
+				8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D182230C921DB232233F8033F0EAD2E7 /* Sources */ = {
+		FD3EDF094FB95ED0F593F61850EBDEE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB24FD0482483622A230D5AF717C933A /* ProgressPieView.swift in Sources */,
-				C8942EAFFB4ED83B886B468F211B2A8F /* ProgressRingView.swift in Sources */,
-				D76615FFD08132780A1199D4D0B4FFF0 /* ProgressView.swift in Sources */,
-				33256462A3D489D73B8F002C87C47D81 /* SwiftProgressView-dummy.m in Sources */,
+				548F0E7584A74C3D378E67F0423F8FD9 /* Pods-simpleTimer60-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AD2449E7C014D0E6327A3AE537DDE9C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftProgressView;
-			target = A38DC358AA1571645C6B63937370D243 /* SwiftProgressView */;
-			targetProxy = 274AA351B2248718F9408495CE0D4540 /* PBXContainerItemProxy */;
-		};
-		CFF8E12B5F4923B949EC82ACDAF1FB2F /* PBXTargetDependency */ = {
+		184EDA05CE5413E97908AE66224E18A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = BBE36F4FDAD9A3BEF7BE09168D3AA622 /* PBXContainerItemProxy */;
+			targetProxy = 5628345412CEA59E6F3A2F9B368FD80E /* PBXContainerItemProxy */;
 		};
-		F66F074EFC9BE08B78118ACF5925F8F1 /* PBXTargetDependency */ = {
+		2E5B95B3BAEC6E1F39A4849C523682A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 67E258A59A2A1578AE5A7980C07894D7 /* PBXContainerItemProxy */;
+			targetProxy = 6C94B8A0AA5B72E7F6B679A4FAE60A32 /* PBXContainerItemProxy */;
+		};
+		975D11A6F8C8A2F0F29CE39F0AFF4596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftProgressView;
+			target = A38DC358AA1571645C6B63937370D243 /* SwiftProgressView */;
+			targetProxy = AF9A470042449531E612F02AA6F97F9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02910E73C9BC355FA20483345A8BAE44 /* Debug */ = {
+		045CF58F1E575DCD19328E30AFA15DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39EA63D557A7BFCA46612437AE57F27 /* SwiftProgressView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressView/SwiftProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProgressView;
+				PRODUCT_NAME = SwiftProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		287F94ECA7F86E9574AFCE8E64375EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C987B3D626A6A9FDD3C821849F6E0A /* Pods-simpleTimer60.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F0FC8E43EA87889911F74D1F449C37A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 963B0E54E4E11C731C91A09E78568F00 /* FMDB.debug.xcconfig */;
 			buildSettings = {
@@ -546,9 +619,9 @@
 			};
 			name = Debug;
 		};
-		530B03C68515C7A6D1065CBF77F68F92 /* Debug */ = {
+		4B22B6E5C5A035015EAE7134F784AD76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D52D3B06A1E6F9B746D6EEC02507288 /* Pods-sipleTimer60.debug.xcconfig */;
+			baseConfigurationReference = B979F842CE2475C25FC937F074886945 /* Pods-simpleTimer60.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -560,7 +633,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -569,7 +642,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-simpleTimer60/Pods-simpleTimer60.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -583,7 +656,41 @@
 			};
 			name = Debug;
 		};
-		5595DB483511168853EE71C2ADEF6523 /* Release */ = {
+		4FAFE8BC4EB35A71D55DA1913C267417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C200E7D8098E26D78EC1365B5C8B473E /* SwiftProgressView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressView/SwiftProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProgressView;
+				PRODUCT_NAME = SwiftProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FC401D69356DAD9784AD6B6D93F9FFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A27EBC2AE590C46E75BC15CAA0A22ED /* FMDB.release.xcconfig */;
 			buildSettings = {
@@ -617,78 +724,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		77F1960E30778B72C87BC72FFFD10828 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46535C1B7699B4738CD79942FFC50295 /* Pods-sipleTimer60.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sipleTimer60/Pods-sipleTimer60.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9BDC22F4A5310B94FA6BC98505DA1DCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C200E7D8098E26D78EC1365B5C8B473E /* SwiftProgressView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressView/SwiftProgressView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView.modulemap";
-				PRODUCT_MODULE_NAME = SwiftProgressView;
-				PRODUCT_NAME = SwiftProgressView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -835,41 +870,6 @@
 			};
 			name = Release;
 		};
-		E69B410B24122D3F2A7123E004464C3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D39EA63D557A7BFCA46612437AE57F27 /* SwiftProgressView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressView/SwiftProgressView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftProgressView/SwiftProgressView.modulemap";
-				PRODUCT_MODULE_NAME = SwiftProgressView;
-				PRODUCT_NAME = SwiftProgressView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 072A9D8F3FDD887C95ECEB6379DD80CD /* SwiftLint.debug.xcconfig */;
@@ -898,6 +898,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0FC8E43EA87889911F74D1F449C37A /* Debug */,
+				5FC401D69356DAD9784AD6B6D93F9FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D51DB6451DA36C06FEFBFD1D577EF80 /* Build configuration list for PBXNativeTarget "SwiftProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFE8BC4EB35A71D55DA1913C267417 /* Debug */,
+				045CF58F1E575DCD19328E30AFA15DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -907,29 +925,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEBBD7C509AC6D6C7FC9CE21CC71AF0F /* Build configuration list for PBXNativeTarget "Pods-sipleTimer60" */ = {
+		F62E7FEC2F5E033E35EB6C3FB7A1DF5E /* Build configuration list for PBXNativeTarget "Pods-simpleTimer60" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				530B03C68515C7A6D1065CBF77F68F92 /* Debug */,
-				77F1960E30778B72C87BC72FFFD10828 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0F6E04EA1A2CC24FC27677513183769 /* Build configuration list for PBXNativeTarget "SwiftProgressView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BDC22F4A5310B94FA6BC98505DA1DCE /* Debug */,
-				E69B410B24122D3F2A7123E004464C3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02910E73C9BC355FA20483345A8BAE44 /* Debug */,
-				5595DB483511168853EE71C2ADEF6523 /* Release */,
+				4B22B6E5C5A035015EAE7134F784AD76 /* Debug */,
+				287F94ECA7F86E9574AFCE8E64375EA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "03FF37E8269D673500791D35"
-               BuildableName = "sipleTimer60.app"
+               BuildableName = "simpleTimer60.app"
                BlueprintName = "simpleTimer60"
                ReferencedContainer = "container:simpleTimer60.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03FF37E8269D673500791D35"
-            BuildableName = "sipleTimer60.app"
+            BuildableName = "simpleTimer60.app"
             BlueprintName = "simpleTimer60"
             ReferencedContainer = "container:simpleTimer60.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03FF37E8269D673500791D35"
-            BuildableName = "sipleTimer60.app"
+            BuildableName = "simpleTimer60.app"
             BlueprintName = "simpleTimer60"
             ReferencedContainer = "container:simpleTimer60.xcodeproj">
          </BuildableReference>

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_sipleTimer60VersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_sipleTimer60VersionString[];
+FOUNDATION_EXPORT double Pods_simpleTimer60VersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_simpleTimer60VersionString[];
 
